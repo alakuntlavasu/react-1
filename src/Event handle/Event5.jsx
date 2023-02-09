@@ -9,3 +9,4 @@ const Event5 = () => {
 };
 
 export default Event5;
+// use synthetic events directly inside an onClick handler

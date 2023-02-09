@@ -44,7 +44,9 @@ import React from "react"
 /* import Bag from "./Bag" */
 /* import Masage from "./Masage" */
 /* import Car from "./Car" */
-import Event5 from "./Event handle/Event5"
+//  import Event5 from "./Event handle/Event5"
+// import Event6 from "./Event handle/Event6"
+  import EventBind from "./Event handle/EventBind"
  function App() {
   return (
     <div>
@@ -57,8 +59,8 @@ import Event5 from "./Event handle/Event5"
    {/* <Event2/> */}
    {/* <Event3/> */}
    {/* <Event4/> */}
-   <Event5/>
-
+   {/* <Event6/> */}
+   <EventBind/>
  
   
     </div>
