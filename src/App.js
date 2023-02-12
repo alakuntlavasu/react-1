@@ -28,7 +28,11 @@
 //   export default App  
   
  import React from "react"
- import List from "./List rendaring react/List"
+ import Form1 from "./FormHandling/Form1"
+//  import Stylee from "./Mystyless react/Stylee"
+  // import List2 from "./List rendaring react/List2"
+//  import List1 from "./List rendaring react/List1"
+//  import List from "./List rendaring react/List"
 // import Profile from "./Conditional Rendering/Profile"
 // import Profile1 from "./Conditional Rendering/Profile1"
 // import Profile2 from "./Conditional Rendering/Profile2"
@@ -68,7 +72,13 @@
      {/* <Profile/> */}
      {/* <Profile1/> */}
      {/* <Profile2/> */}
-     <List/>
+     {/* <List/> */}
+     {/* <List1/> */}
+     {/* { <List2/> } */}
+     {/* <Stylee/> */}
+     <Form1/>
+   
+  
 
  
   
