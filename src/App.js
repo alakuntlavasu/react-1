@@ -29,6 +29,7 @@
   
  import React from "react"
  import Form1 from "./FormHandling/Form1"
+import Stylee from "./Mystyless react/Stylee"
 //  import Stylee from "./Mystyless react/Stylee"
   // import List2 from "./List rendaring react/List2"
 //  import List1 from "./List rendaring react/List1"
@@ -76,7 +77,8 @@
      {/* <List1/> */}
      {/* { <List2/> } */}
      {/* <Stylee/> */}
-     <Form1/>
+     {/* <Form1/> */}
+     <Stylee/>
    
   
 
