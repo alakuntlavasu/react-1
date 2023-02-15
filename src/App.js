@@ -28,14 +28,19 @@
 //   export default App  
   
  import React from "react"
- import Form1 from "./FormHandling/Form1"
-import Stylee from "./Mystyless react/Stylee"
+//  import Binding1 from "./Binding Event handle/Binding1"
+  import Binding from "./Binding Event handle/Binding"
+import ETApp from "./React Projects/ETApp"
+// import Inline from "./Mystyless react/Inline"
+// import ETApp from './React Projects/ETApp'
+//  import Form1 from "./FormHandling/Form1"
+//  import Stylee from "./Mystyless react/Stylee"
 //  import Stylee from "./Mystyless react/Stylee"
   // import List2 from "./List rendaring react/List2"
 //  import List1 from "./List rendaring react/List1"
 //  import List from "./List rendaring react/List"
-// import Profile from "./Conditional Rendering/Profile"
-// import Profile1 from "./Conditional Rendering/Profile1"
+//  import Profile from "./Conditional Rendering/Profile"
+//  import Profile1 from "./Conditional Rendering/Profile1"
 // import Profile2 from "./Conditional Rendering/Profile2"
 //  import Event4 from "./Event handle/Event4"
 //  import Event3 from "./Event handle/Event3"
@@ -71,17 +76,20 @@ import Stylee from "./Mystyless react/Stylee"
      {/* <Event5/> */}
      {/* <Greeting/> */}
      {/* <Profile/> */}
-     {/* <Profile1/> */}
+     {/* { <Profile1/> } */}
      {/* <Profile2/> */}
      {/* <List/> */}
      {/* <List1/> */}
      {/* { <List2/> } */}
      {/* <Stylee/> */}
      {/* <Form1/> */}
-     <Stylee/>
-   
+     {/* { <Stylee primary={true}/> } */}
+      {/* <Inline/> */}
   
-
+      {/* <ETApp/> */}
+      { <Binding/> }
+      <ETApp/>
+      {/* <Binding1/> */}
  
   
      </div>
