@@ -31,9 +31,9 @@
 
 //  import PureComp from "./Purecomponent -class/PureComp"
 //  import Component from "./Purecomponent -class/Purecomponent"
-//  import Binding1 from "./Binding Event handle/Binding1"
+ // import Binding1 from "../Binding Event handle/Binding1"
   // import Binding from "./Binding Event handle/Binding"
-// import ETApp from "./React Projects/ETApp"
+ 
 // import Inline from "./Mystyless react/Inline"
 // import ETApp from './React Projects/ETApp'
 //  import Form1 from "./FormHandling/Form1"
@@ -89,10 +89,10 @@
      {/* { <Stylee primary={true}/> } */}
       {/* <Inline/> */}
   
-      {/* <ETApp/> */}
+      
       {/* { <Binding/> } */}
       {/* <App/> */}
-      {/* <Binding1/> */}
+       {/* <Binding1/>  */}
       {/* <Component/> */}
       
       
