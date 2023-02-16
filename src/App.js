@@ -28,9 +28,12 @@
 //   export default App  
   
  import React from "react"
+
+//  import PureComp from "./Purecomponent -class/PureComp"
+//  import Component from "./Purecomponent -class/Purecomponent"
 //  import Binding1 from "./Binding Event handle/Binding1"
-  import Binding from "./Binding Event handle/Binding"
-import ETApp from "./React Projects/ETApp"
+  // import Binding from "./Binding Event handle/Binding"
+// import ETApp from "./React Projects/ETApp"
 // import Inline from "./Mystyless react/Inline"
 // import ETApp from './React Projects/ETApp'
 //  import Form1 from "./FormHandling/Form1"
@@ -87,9 +90,12 @@ import ETApp from "./React Projects/ETApp"
       {/* <Inline/> */}
   
       {/* <ETApp/> */}
-      { <Binding/> }
-      <ETApp/>
+      {/* { <Binding/> } */}
+      {/* <App/> */}
       {/* <Binding1/> */}
+      {/* <Component/> */}
+      
+      
  
   
      </div>
