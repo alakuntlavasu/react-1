@@ -11,7 +11,7 @@ const FetchCard = () => {
     },[])
   return (
     <div>
-        <pre>{JSON.stringify(Contacts)}</pre>
+        {/* <pre>{JSON.stringify(Contacts)}</pre> */}
         {
             Contacts.map((contact)=>{
                 return(
