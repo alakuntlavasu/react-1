@@ -3,8 +3,9 @@ import React, { useEffect, useState } from 'react'
 const Contact = () => {
     const[users,setUsers]=useState([])
     useEffect(()=>{
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('https://jsonplaceholder.typicode.com/users')
         .then(response=>response.data)
+        // .then(data=>console.log(data))
         .then(data=>setUsers(data))
     })
   return (
@@ -15,7 +16,7 @@ const Contact = () => {
      users.map((user)=>{
         return(
             
-            <h2>{user.title}</h2>
+            <h2>{user.name}</h2>
 
            
 
