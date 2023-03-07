@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Count = () => {
+const Countqw = () => {
     const[Count,setCount]=useState(0)
     const incriment=()=>{
         setCount(Count+1)
@@ -13,4 +13,5 @@ const Count = () => {
   )
 }
 
-export default Count
+export default Countqw
+// useState hook example
