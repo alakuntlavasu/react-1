@@ -23,12 +23,48 @@
 
 // export default App
 
+// import React from 'react'
+// import Navbar from './Navbar/Navbar'
+// import Home from './Navbar/Home'
+// import About from './Navbar/About'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
+// const App = () => {
+//   return (
+//     <div>
+//     <Router>
+//     <Navbar />
+//     <Switch>
+//       <Route path="/Home"  component={Home}/>
+//       <Route path="/About" component={About}/>
+//       {/* <Route path="/Services" component={Services}/> */}
+
+//     </Switch>
+
+//     </Router>
+      
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
+import Form2 from './FormHandaling/Form2'
+// import Validation from './FormHandaling/Validation'
+// import Count from './State Examples/Count'
+// import Mesage from './State Examples/Mesage'
+// import Form1 from './FormHandaling/Form1'
 
 const App = () => {
   return (
     <div>
-      
+    {/* <Count /> */}
+    {/* <Mesage /> */}
+    {/* <Form1 /> */}
+    {/* <Validation/> */}
+    <Form2/>
     </div>
   )
 }
