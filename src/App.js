@@ -51,12 +51,13 @@
 // export default App
 
 import React from 'react'
-import Form3 from './FormHandaling/Form3'
+// import Form3 from './FormHandaling/Form3'
 // import Form2 from './FormHandaling/Form2'
-// import Validation from './FormHandaling/Validation'
+//  import Validation from './FormHandaling/Validation'
 // import Count from './State Examples/Count'
 // import Mesage from './State Examples/Mesage'
 // import Form1 from './FormHandaling/Form1'
+import RegesterForm from './FormHandaling/RegesterForm'
 
 const App = () => {
   return (
@@ -64,9 +65,10 @@ const App = () => {
     {/* <Count /> */}
     {/* <Mesage /> */}
     {/* <Form1 /> */}
-    {/* <Validation/> */}
+    {/* /* <Validation/> */}
     {/* <Form2/> */}
-    <Form3 />
+    {/* <Form3 /> */}
+    <RegesterForm />
     </div>
   )
 }

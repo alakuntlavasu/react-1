@@ -14,19 +14,19 @@ setFormErrors(validate(formvalues))
 // setFormvalues({email:"",password:''})
 setIsSubmit(true)
     }
-    useEffect(()=>{
-if(Object.keys(formErrors).length===0 && isSubmit){
-    console.log(formvalues);
-}
-    },[])
+//     useEffect(()=>{
+// if(Object.keys(formErrors).length===0 && isSubmit){
+//     console.log(formvalues);
+// }
+//     },[])
     const validate=(values)=>{
         const errors={}
         if(!values.email){
             errors.email='*This field is required'
         }
-        if(!values.password){
-            errors.password='*This field is required'
-        }
+         if(!values.password){
+             errors.password='*This field is required'
+         }
         return errors
     }
   return (
