@@ -51,13 +51,17 @@
 // export default App
 
 import React from 'react'
+import User2 from './UserData/User2'
+// import User1 from './UserData/User1'
+// import User from './UsreApp/User'
+// import Signup from './FormHandaling/Signup'
 // import Form3 from './FormHandaling/Form3'
 // import Form2 from './FormHandaling/Form2'
 //  import Validation from './FormHandaling/Validation'
 // import Count from './State Examples/Count'
 // import Mesage from './State Examples/Mesage'
 // import Form1 from './FormHandaling/Form1'
-import RegesterForm from './FormHandaling/RegesterForm'
+// import RegesterForm from './FormHandaling/RegesterForm'
 
 const App = () => {
   return (
@@ -68,7 +72,11 @@ const App = () => {
     {/* /* <Validation/> */}
     {/* <Form2/> */}
     {/* <Form3 /> */}
-    <RegesterForm />
+    {/* <RegesterForm /> */}
+    {/* <Signup /> */}
+    {/* <User /> */}
+    {/* <User1/> */}
+    <User2 />
     </div>
   )
 }
