@@ -1,49 +1,46 @@
-// import React from 'react'
-// import Index from './Hooks Practice/Index'
-// // import ParentComp from './Hooks Practice/ParentComp'
-// // import Counter3 from './Count3'
-// // import Vasu from './Hooks Practice/Vasu'
-// // import Count2 from './Hooks Practice/Count2'
-// // import Count from './Hooks Practice/Count'
-// // import Count1 from './Hooks Practice/Count1'
+//  import React from 'react'
+//   import Products from './Products'
+//   import Product from './Product'
 
-// const App = () => {
-//   return (
-//     <div>
-//       {/* <Count/> */}
-//       {/* <Count1/> */}
-//       {/* <Count2/> */}
-//       {/* <Vasu/> */}
-//       {/* <Counter3/> */}
-//       {/* <ParentComp/> */}
-//       <Index/>
+//  import{BrowserRouter as Router,Routes,Route} from'react-router-dom'
+//  const App = () => {
+//    return (
+//      <div>
+//      <Router>
+//      <Routes>
+//         <Route exact path='/' element={<Products/>}/>
+//         <Route exact path='/product/:id' element={<Product/>}/>
+
+//       </Routes>
+//     </Router> 
 //     </div>
-//   )
-// }
+//    )
+//  }
 
 // export default App
 
-// import React from 'react'
-// import Navbar from './Navbar/Navbar'
-// import Home from './Navbar/Home'
-// import About from './Navbar/About'
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-// import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
+// import React from 'react'
+// import Navbar from './Router/Navbar'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// import Home from './Router/Home'
+// import About from './Router/About'
+// import Services from './Router/Services'
+// import Contacts from './Router/Contacts'
 // const App = () => {
 //   return (
 //     <div>
-//     <Router>
-//     <Navbar />
-//     <Switch>
-//       <Route path="/Home"  component={Home}/>
-//       <Route path="/About" component={About}/>
-//       {/* <Route path="/Services" component={Services}/> */}
+//       <Router>
+//         <Navbar />
+//         <Routes>
+//           <Route path='/home' element={<Home />} />
+//           <Route path='/about' element={<About />} />
+//           <Route path='/services' element={<Services />} />
 
-//     </Switch>
+//           <Route path='/contacts' element={<Contacts />} />
 
-//     </Router>
-      
+//         </Routes>
+//       </Router>
 //     </div>
 //   )
 // }
@@ -51,32 +48,24 @@
 // export default App
 
 import React from 'react'
-import User2 from './UserData/User2'
-// import User1 from './UserData/User1'
-// import User from './UsreApp/User'
-// import Signup from './FormHandaling/Signup'
-// import Form3 from './FormHandaling/Form3'
-// import Form2 from './FormHandaling/Form2'
-//  import Validation from './FormHandaling/Validation'
-// import Count from './State Examples/Count'
-// import Mesage from './State Examples/Mesage'
-// import Form1 from './FormHandaling/Form1'
-// import RegesterForm from './FormHandaling/RegesterForm'
-
+import Navbar from './RouterEx/Navbar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './RouterEx/Home'
+import About from './RouterEx/About'
+import Service from './RouterEx/Service'
 const App = () => {
   return (
     <div>
-    {/* <Count /> */}
-    {/* <Mesage /> */}
-    {/* <Form1 /> */}
-    {/* /* <Validation/> */}
-    {/* <Form2/> */}
-    {/* <Form3 /> */}
-    {/* <RegesterForm /> */}
-    {/* <Signup /> */}
-    {/* <User /> */}
-    {/* <User1/> */}
-    <User2 />
+    <Router>
+      <Navbar>
+        <Routes>
+          <Route path='/Home' element={<Home/>}/>
+          <Route path='/About'element={<About/>}/>
+          <Route path='/service'element={<Service/>}/>
+        </Routes>
+      </Navbar>
+    </Router>
+    
     </div>
   )
 }
