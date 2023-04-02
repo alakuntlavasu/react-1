@@ -23,12 +23,26 @@
 
 
 import React from 'react'
-import Mesage from './HooksExample/usestateHookEx/Mesage'
+import Counter3 from './HooksExample/usestateHookEx/Counter3'
+// import State from './HooksExample/usestateHookEx/State'
+// import Counter1 from './HooksExample/usestateHookEx/Counter2'
+// import Counter from './HooksExample/usestateHookEx/Counter'
+// import Count1 from './HooksExample/usestateHookEx/Count1'
+// import Count from './HooksExample/usestateHookEx/Count'
+// import Mesage from './HooksExample/usestateHookEx/Mesage'
+
+
 
 const App = () => {
   return (
     <div>
-     <Mesage/>
+     {/* <Mesage/> */}
+     {/* <Count/> */}
+     {/* <Count1/> */}
+     {/* <Counter/> */}
+     {/* <Counter1/> */}
+     {/* <State/> */}
+     <Counter3/>
     </div>
   )
 }
