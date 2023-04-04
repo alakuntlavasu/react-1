@@ -1,29 +1,29 @@
-import React from 'react'
-import Cart from './DigitalClock/Cart'
-// import State2 from './HooksExample/State2'
-// import State3 from './HooksExample/State3'
-// import State4 from './HooksExample/State4'
-// import State from './HooksExample/State'
-// import State1 from './HooksExample/State1'
-// import ClockF from './DigitalClock/Digital'
-// import Digital1 from './DigitalClock/Digital1'
-const App = () => {
-  return (
-    <div>
-      {/* <State/>
-       <State1/> 
-      <State2/> 
-      <State3/>
-      <State4/> */}
-      {/* <ClockF/> */}
-      {/* <Digital1/> */}
-      <Cart/>
+// import React from 'react'
+// import Cart from './DigitalClock/Cart'
+// // import State2 from './HooksExample/State2'
+// // import State3 from './HooksExample/State3'
+// // import State4 from './HooksExample/State4'
+// // import State from './HooksExample/State'
+// // import State1 from './HooksExample/State1'
+// // import ClockF from './DigitalClock/Digital'
+// // import Digital1 from './DigitalClock/Digital1'
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <State/>
+//        <State1/> 
+//       <State2/> 
+//       <State3/>
+//       <State4/> */}
+//       {/* <ClockF/> */}
+//       {/* <Digital1/> */}
+//       {/* <Cart/> */}
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
 
 //useStateHook
 
@@ -67,3 +67,16 @@ export default App
 // }
 
 // export default App
+
+import React from 'react'
+import Data from './Api getData/Data'
+const App = () => {
+ 
+  return (
+    <div>
+     <Data/>
+    </div>
+  )
+}
+
+export default App
