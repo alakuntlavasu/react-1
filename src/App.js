@@ -69,12 +69,14 @@
 // export default App
 
 import React from 'react'
-import Data from './Api getData/Data'
+import Data1 from './Api getData/Data1'
+// import Data from './Api getData/Data'
 const App = () => {
  
   return (
     <div>
-     <Data/>
+     {/* <Data/> */}
+     <Data1/>
     </div>
   )
 }
