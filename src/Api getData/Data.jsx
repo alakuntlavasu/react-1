@@ -8,6 +8,7 @@ const Data = () => {
     })
   return (
     <div className='text-center'>
+    <img src="" alt="..." class="rounded-circle"></img>
     <pre>{JSON.stringify(Data)}</pre>
        <h1> API get the Data</h1>
        {

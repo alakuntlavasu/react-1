@@ -68,15 +68,29 @@
 
 // export default App
 
-import React from 'react'
-import Data1 from './Api getData/Data1'
+// import React from 'react'
+// // import Data1 from './Api getData/Data1'
 // import Data from './Api getData/Data'
-const App = () => {
+// const App = () => {
  
+//   return (
+//     <div>
+//      <Data/>
+//      {/* <Data/> */}
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+import Food1 from './FoodApp/Food1'
+
+const App = () => {
   return (
     <div>
-     {/* <Data/> */}
-     <Data1/>
+      <Food1/>
     </div>
   )
 }
